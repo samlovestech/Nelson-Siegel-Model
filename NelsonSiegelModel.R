@@ -2,7 +2,7 @@
 library(xts)
 library(plotly)
 library(YieldCurve)
-yield.data <- read.csv("/Users/chensenquan/Desktop/yield.csv", header = T)
+yield.data <- read.csv("/Users/xxxx/yield.csv", header = T)
 init <- as.matrix(yield.data[,c(2:4)])
 init.rates <- matrix(as.numeric(init), ncol = 3)/100
 rest <- as.matrix(yield.data[,c(5:10)])
